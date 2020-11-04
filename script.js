@@ -2,6 +2,9 @@ const music = document.querySelector('audio');
 const prevBtn = document.getElementById('prev');
 const playBtn = document.getElementById('play');
 const nextBtn = document.getElementById('next');
+const image = document.querySelector('img');
+const artist = document.getElementById('artist');
+const title = document.getElementById('title');
 
 let isPlaying = false;
 
