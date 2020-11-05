@@ -8,7 +8,8 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  background: #c9ced3;
+  background-color: #3c2e51;
+  background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23c6afeb' fill-opacity='0.54'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
   font-family: "Roboto",sans-serif;
   display: flex;
   justify-content: center;
@@ -16,15 +17,22 @@ body {
   font-size: 12px;
 }
 
-
+.creator{
+  text-align: center;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 10px;
+}
+.title{
+  margin-top: -20px;
+}
 
 .img-container {
   position: relative;
   height: 300px;
   width: 300px;
   top: -50px;
-  left: 50px;
-
+  left: 35px;
 }
 
 .img-container img{
@@ -39,7 +47,7 @@ body {
 .player-container{
   margin-top: 50px;
   height: 500px;
-  width: 400px;
+  width: 360px;
   background-color: #e7e7e7;
   border-radius: 20px;
   box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.3) ;
@@ -63,7 +71,7 @@ h3 {
   background: #fff;
   border-radius: 5px;
   cursor: pointer;
-  margin: 40px 20px;
+  margin: 25px 20px;
   height: 4px;
   width: 90%;
 }
@@ -89,7 +97,9 @@ h3 {
   position: relative;
   top: 25px;
   left: 105px;
+  margin-top: -10px;
   width: 200px;
+
 }
 
 .fas {
